@@ -69,3 +69,11 @@ section {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+@media all and (min-width: 1300px) {
+  .active {
+    transform: translateX(2em);
+    padding-left: 4em;
+    padding-right: 2em;
+  }
+}
